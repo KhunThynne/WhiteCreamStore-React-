@@ -5,23 +5,23 @@ React Bootstrap SCSS
 # Getting Started with Create React App
 https://whitecream-e8372.web.app/
 
-Desktop/
-0.1/
+Desktop\
+0.1\
 ![desktop](https://github.com/KhunThynne/WhiteCreamStore-React-/assets/88494232/d98e3673-1205-4540-8b6c-a916d7887413)/
-0.2/
+0.2\
 ![desktop (2)](https://github.com/KhunThynne/WhiteCreamStore-React-/assets/88494232/28de366b-3b1e-44a6-bb33-d9da4fb2c8cc)/
-0.3/
+0.3\
 ![desktop (3)](https://github.com/KhunThynne/WhiteCreamStore-React-/assets/88494232/cb4a10f4-d4bb-47a4-a961-da27ad9d3271)/
-0.4/
+0.4\
 ![desktop (4)](https://github.com/KhunThynne/WhiteCreamStore-React-/assets/88494232/7512930f-d1e1-4832-934c-ecd7403e7dec)/
 
-Mobile/
+Mobile\
 
-0.1/
+0.1\
 ![Mobile](https://github.com/KhunThynne/WhiteCreamStore-React-/assets/88494232/98fd3e6a-8dee-4173-bc79-e31f8bc70010)/
-0.2/
+0.2\
 ![Mobile (2)](https://github.com/KhunThynne/WhiteCreamStore-React-/assets/88494232/2bb0638c-a2b3-48f7-9f1a-5ca22cec80da)/
-0.3/
+0.3\
 ![Mobile (3)](https://github.com/KhunThynne/WhiteCreamStore-React-/assets/88494232/e98b7d01-081d-4c7f-a27c-023de33b0d97)
 
 
