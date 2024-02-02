@@ -1,0 +1,65 @@
+.Modal01 {
+    position: absolute;
+    margin: auto;
+    min-width: 500px;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+
+
+
+    .head {
+        
+        font-size: xx-large;
+        border-style: solid;
+    }
+
+    .body {
+        
+        min-height: 40vh;
+        border-style: solid;
+    }
+
+    .foot {
+   
+        border-style: solid;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        min-width: 0;
+        top: 0;
+        height: 100%;
+
+        .head {
+            font-size: xx-large;
+            border-style: solid;
+        }
+
+        .body {
+         
+            height: 100%;
+
+
+
+        }
+
+        .foot {
+            position: absolute;
+       
+            bottom: 0;
+            width: 100%;
+            border-style: solid;
+
+        }
+    }
+
+}
+
+
+.active:active {
+    transition: opacity 300ms, transform 300ms;
+    opacity: 40%;
+}

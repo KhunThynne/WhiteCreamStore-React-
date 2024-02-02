@@ -1,0 +1,67 @@
+[debug] [2024-02-02T15:22:57.220Z] ----------------------------------------------------------------------
+[debug] [2024-02-02T15:22:57.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\parns\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-02T15:22:57.222Z] CLI Version:   13.1.0
+[debug] [2024-02-02T15:22:57.222Z] Platform:      win32
+[debug] [2024-02-02T15:22:57.222Z] Node Version:  v18.17.1
+[debug] [2024-02-02T15:22:57.223Z] Time:          Fri Feb 02 2024 22:22:57 GMT+0700 (Indochina Time)
+[debug] [2024-02-02T15:22:57.223Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-02T15:22:57.230Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-02T15:22:57.230Z] > authorizing via signed-in user (tomorrow426@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Portfolio\Java-Type_scripts\Frontend\React\WhiteCream
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-02T15:23:09.618Z] > refreshing access token with scopes: []
+[debug] [2024-02-02T15:23:09.620Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-02T15:23:09.620Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-02T15:23:09.788Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-02-02T15:23:09.789Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-02T15:23:09.797Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-02T15:23:10.464Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-02T15:23:10.464Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-02-02T15:54:16.585Z] ----------------------------------------------------------------------
+[debug] [2024-02-02T15:54:16.586Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\parns\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-02T15:54:16.587Z] CLI Version:   13.1.0
+[debug] [2024-02-02T15:54:16.587Z] Platform:      win32
+[debug] [2024-02-02T15:54:16.587Z] Node Version:  v18.17.1
+[debug] [2024-02-02T15:54:16.588Z] Time:          Fri Feb 02 2024 22:54:16 GMT+0700 (Indochina Time)
+[debug] [2024-02-02T15:54:16.588Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-02T15:54:16.593Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-02T15:54:16.593Z] > authorizing via signed-in user (tomorrow426@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Portfolio\Java-Type_scripts\Frontend\React\WhiteCream
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-02T15:54:28.940Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-02T15:54:29.857Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-02T15:54:29.858Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]

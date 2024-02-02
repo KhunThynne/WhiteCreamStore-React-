@@ -1,0 +1,177 @@
+/*@import "../../../node_modules/bootstrap/scss/bootstrap.scss";*/
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import './color.scss';
+@import './head.scss';
+@import './scrollbar.scss';
+@import './button.scss';
+@import './alerts.scss';
+@import './menus.scss';
+@import './modals.scss';
+
+* {
+    font-family: monospace;
+
+}
+
+
+
+.bt-icon:hover {
+    cursor: pointer;
+    filter: brightness(130%);
+
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 50;
+
+}
+
+.my-node-enter {
+    opacity: 0;
+
+}
+
+.my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.my-node-exit {
+    opacity: 1;
+}
+
+.my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+.bodyTop {
+
+    width: 100%;
+
+    height: 400px;
+
+    @include media-breakpoint-up(lg) {
+
+        width: 40%;
+
+    }
+}
+
+body {
+    background-color: $c1;
+
+    min-height: 100vh;
+
+}
+
+
+.Footer {
+    opacity: 0.1;
+
+    padding: 20px 20% 20px 20%;
+
+    width: 100%;
+    bottom: 0;
+
+    .item {
+        border-style: dashed;
+    }
+}
+
+
+.NavigationBar {
+    background-color: white;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.219);
+    position: fixed;
+
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+h1 {
+    color: $XDBase_Color;
+}
+
+.Header {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    h1 {
+        color: #ffffff;
+    }
+
+}
+
+.Center {
+
+    position: absolute;
+    bottom: 50%;
+    margin: auto;
+
+
+    left: 50%;
+
+    h1 {
+        color: black;
+
+    }
+}
+
+.bright {
+    background-color: $c2;
+}
+
+.bright:hover {
+    background-color: $c1;
+}
+
+
+.containerTH {
+
+    padding: 20px 20% 0px 20%;
+    position: relative;
+    height: 100vh;
+    margin-top: 25px;
+
+
+    @include media-breakpoint-down(xl) {
+
+        padding: 2px;
+
+    }
+
+    @include media-breakpoint-down(lg) {
+        height: fit-content;
+        padding: 2px;
+
+    }
+
+
+
+}
+
+@include media-breakpoint-down(sm) {
+    .action {
+        position: absolute;
+        border-style: dotted;
+        margin-top: 20px;
+        right: 0;
+    }
+
+}
+
+.text-th {
+    color: $c2;
+}

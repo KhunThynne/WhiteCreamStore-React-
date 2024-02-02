@@ -1,0 +1,84 @@
+.Menu01 {
+
+
+
+    background-color: white;
+    border-style: double;
+
+ 
+    .text {
+        color: $c4 ;
+        text-decoration: none;
+
+
+    }
+
+
+    .active {
+        color: $c2 ;
+    }
+
+    .MenuMobile {
+        white-space: nowrap;
+        position: relative;
+        .text{
+            font-size: x-large;
+
+        }
+    }
+
+}
+
+
+.sidemenu01 {
+    width: 50%;
+    padding: 10%;
+    overflow-x: hidden;
+    box-shadow: 1px 1px 40px 20px rgba(0, 0, 0, 0.219);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100vh;
+    border-right: 5px solid $c2;
+    transition: all 0.5s;
+
+    background-color: white;
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+    }
+
+
+
+}
+
+.sidemenu-enter {
+    opacity: 1;
+    width: 0px;
+    padding: 10% 0;
+}
+
+.sidemenu-enter-active {
+
+
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+
+
+.sidemenu-exit {
+    opacity: 1;
+}
+
+.sidemenu-exit-active {
+    opacity: 0;
+    width: 0;
+}
+
+.icon {}
+
+.icon:active {
+    transform: rotate(180deg);
+    color: #FF9900;
+}
